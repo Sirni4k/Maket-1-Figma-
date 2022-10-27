@@ -1,0 +1,12 @@
+a{
+    display: inline-block;
+    transition: 0.4s;
+    transform: scale(1);
+}
+
+a:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    color: orangered;
+}
+
