@@ -11,6 +11,10 @@ body {
     font-family: Gilroy, sans-serif;
 }
 
+.container{
+    max-width: 945px;
+}
+
 a{
     text-decoration: none;
     color: black;
