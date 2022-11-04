@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Пробник">
-    
-    <title>Figma</title>
-    
+
+    <title>Maket №1 (Figma)</title>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
-    
-    
+
+
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <div class="container pt-4">
-            <div class="menu">
-                <div class="row justify-content-between text-center">
-                    <div class="col-md-1 d-none d-md-block text-start"><a class="BlackHome" href="#" target="_blank">Home</a></div>
-                    <div class="col-md-2 d-none d-md-block"><a class="nav_menu" href="#" target="_blank">About me</a></div>
-                    <div class="col-md-1 d-none d-md-block"><a class="nav_menu" href="#" target="_blank">Skills</a></div>
-                    <div class="col-md-1 d-none d-md-block"><a class="nav_menu" href="#" target="_blank">Portfolio</a></div>
-                    <div class="col-md-2 d-none d-md-block text-end"><a class="nav_menu" href="#" target="_blank">Contacts</a></div>
+    <header>
+        <nav>
+            <div class="container pt-4">
+                <div class="menu">
+                    <div class="row justify-content-between text-center">
+                        <div class="col-md-1 d-none d-md-block text-start"><a class="BlackHome" href="#">Home</a></div>
+                        <div class="col-md-2 d-none d-md-block"><a class="nav_menu" href="#About_me">About me</a></div>
+                        <div class="col-md-1 d-none d-md-block"><a class="nav_menu" href="#Skills">Skills</a></div>
+                        <div class="col-md-1 d-none d-md-block"><a class="nav_menu" href="#Portfolio">Portfolio</a></div>
+                        <div class="col-md-2 d-none d-md-block text-end"><a class="nav_menu" href="#Contacts">Contacts</a></div>
 
+                        <div class="d-flex d-md-none flex-column justify-content-center align-items-end">
 
+                            <div class="dropdown">
+                                <a class="btn btn-outline-danger navbar-toggler-icon nav_burger" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
 
-
-
-
-
-                    <div class="d-flex d-md-none flex-column justify-content-center align-items-end">
-
-                        <div class="dropdown">
-                            <a class="btn btn-outline-danger navbar-toggler-icon nav_burger" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Home</a></li>
-                                <li><a class="dropdown-item" href="#">About me</a></li>
-                                <li><a class="dropdown-item" href="#">Skills</a></li>
-                                <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                                <li><a class="dropdown-item" href="#">Contacts</a></li>
-                            </ul>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Home</a></li>
+                                    <li><a class="dropdown-item" href="#About_me">About me</a></li>
+                                    <li><a class="dropdown-item" href="#Skills">Skills</a></li>
+                                    <li><a class="dropdown-item" href="#Portfolio">Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="#Contacts">Contacts</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <hr class="d-block mx-auto">
                 </div>
-                <hr class="d-block mx-auto">
             </div>
-        </div>
-    </nav>
-</header>
-    
+        </nav>
+    </header>
+
     <section class="main">
         <div class="container">
             <div class="main_container">
@@ -104,8 +100,9 @@
             </div>
         </div>
     </section>
-    
-    <section class="about_me">
+
+   
+    <section class="about_me" id="About_me">
         <div class="container">
             <div class="about_container">
                 <div class="row justify-content-center text-center">
@@ -128,8 +125,9 @@
             </div>
         </div>
     </section>
-    
-    <section class="Skills">
+
+   
+    <section class="Skills" id="Skills">
         <div class="container">
             <div class="skills_container">
                 <h2>Skills</h2>
@@ -170,8 +168,8 @@
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3 mt-5 mt-lg-0">
-                     
-                      <img class="figma_img" src="img/400px-Figma-logo.png" alt="">
+
+                        <img class="figma_img" src="img/400px-Figma-logo.png" alt="">
                         <p> <br>Figma</p>
                         <img class="psStar" src="img/Star.png" alt="">
                         <img class="psStar" src="img/Star.png" alt="">
@@ -183,31 +181,33 @@
             </div>
         </div>
     </section>
-    
-    <section class="portfolio">
+
+   
+    <section class="portfolio" id="Portfolio">
         <div class="container">
             <div class="portfolio_container">
                 <h2 class="text-center">Portfolio</h2>
                 <div class="row justify-content-center text-center">
-                  
-                   <col-12><img class="collection img-fluid" src="img/PortNewCollection.png" alt=""></col-12>
-                   
-                   <div class="col-12"><a href="#" target="_blank">Online fashion store - Homepage</a></div>
-                   
-                   <div class="col-12"><img class="reebok img-fluid" src="img/reebok_web.png"  alt=""></div>
-                   
-                   <div class="col-12"><a href="#" target="_blank">Reebok Store - Concept</a></div>
-                   
-                   <div class="col-12"><img class="braun img-fluid" src="img/braun.png"  alt=""></div>
-                   
-                   <div class="col-12"><a href="#" target="_blank">Braun Landing Page - Concept</a></div>
+
+                    <col-12><img class="collection img-fluid" src="img/PortNewCollection.png" alt=""></col-12>
+
+                    <div class="col-12"><a href="#" target="_blank">Online fashion store - Homepage</a></div>
+
+                    <div class="col-12"><img class="reebok img-fluid" src="img/reebok_web.png" alt=""></div>
+
+                    <div class="col-12"><a href="#" target="_blank">Reebok Store - Concept</a></div>
+
+                    <div class="col-12"><img class="braun img-fluid" src="img/braun.png" alt=""></div>
+
+                    <div class="col-12"><a href="#" target="_blank">Braun Landing Page - Concept</a></div>
 
                 </div>
             </div>
         </div>
     </section>
-    
-    <section class="contacts">
+
+   
+    <section class="contacts" id="Contacts">
         <div class="container">
             <div class="contacts_container">
                 <h2 class="text-center">Contacts</h2>
@@ -221,16 +221,17 @@
                     <div class="col-3 col-sm-2 col-lg-1"><a href="#" class="contacts_social_a" target="_blank"><img src="img/in.png" alt="" class="BE_a"></a></div>
                     <div class="col-3 col-sm-2 col-lg-1"><a href="#" class="contacts_social_a" target="_blank"><img src="img/miac.png" alt=""></a></div>
                     <div class="col-12">
-                    <p class="liked_footer">Like me <br> on LinkedIn, Instagram, Behance, Dribble</p>
+                        <p class="liked_footer">Like me <br> on LinkedIn, Instagram, Behance, Dribble</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    
-<script src="../src/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="../src/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
+
 </html>
