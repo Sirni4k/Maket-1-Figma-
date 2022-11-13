@@ -105,7 +105,20 @@ nav {
     height: 20px;
     border: 0px;
     border-radius: 0px;
-    background: url(../img/icons8-%D0%BC%D0%B5%D0%BD%D1%8E.svg) center/cover no-repeat;
+    background: url(../img/icons8-%D0%BC%D0%B5%D0%BD%D1%8E.svg) center no-repeat;
+}
+
+.dropdown-item:hover{
+    background: orangered;
+    color: white;
+}
+
+.btn-outline-danger:focus{
+    box-shadow: 0 0 0 .10rem rgba(255,69,0,1);
+    width: 30px;
+    height: 25px;
+    
+    
 }
 
 .about_me{
